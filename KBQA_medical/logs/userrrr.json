@@ -1,0 +1,14 @@
+{
+    "ask_template": "您问的是疾病 '{Disease}' 的症状表现吗？", 
+    "cql_template": "MATCH(p:疾病)-[r:has_symptom]->(q:症状) WHERE p.name='{Disease}' RETURN q.name", 
+    "deny_response": "人类的语言太难了！！", 
+    "intent_strategy": "accept", 
+    "replay_answer": "'糖尿病' 疾病的病症表现一般是这样的：\n血糖值升高、尿糖、气阴两虚、烦渴多饮、多饮、血糖升高、口渴、多尿、消瘦、餐后血糖高", 
+    "reply_template": "'{Disease}' 疾病的病症表现一般是这样的：\n", 
+    "slot_list": [
+        "Disease"
+    ], 
+    "slot_values": {
+        "Disease": "糖尿病"
+    }
+}
