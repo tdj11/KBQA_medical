@@ -14,7 +14,6 @@
 ![image](https://user-images.githubusercontent.com/74800719/235571039-e6ead034-7e0a-4040-841c-5d7c36cbeafb.png)
 
 
-#### 注：该项目是根据B站UP主[每天都要机器学习](https://space.bilibili.com/106467161)的视频进行学习的。
 #### 参考链接：
 https://github.com/wangle1218/KBQA-for-Diagnosis
 <br/>
